@@ -123,7 +123,7 @@ public class Main
 
                 if(grade != SENTINEL){
 
-                    if(grade <= 0 && grade <= 100) {
+                    if(grade >= 0 && grade <= 100) {
                         totalGrades += grade;
 
                         numGrades++;
